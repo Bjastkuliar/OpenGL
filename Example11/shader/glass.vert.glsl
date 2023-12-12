@@ -7,7 +7,7 @@ const float Glass = 1.51714;
 // Air to glass ratio of the indices of refraction (Eta)
 const float Eta = Air / Glass;
  
-// see http://en.wikipedia.org/wiki/Refractive_index Reflectivity
+// see http://en.wikipedia.org/wiki/Refractive_index#Reflectivity
 const float R0 = ((Air - Glass) * (Air - Glass)) / ((Air + Glass) * (Air + Glass));
 
 uniform mat4 u_viewProjectionMatrix;
